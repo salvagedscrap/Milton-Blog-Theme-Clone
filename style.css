@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 8px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f0f0f0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.container{
+    width: %90;
+    padding: 4rem;
+    text-align:center;
+    
+}
+/* 
+.img-fluid {
+    max-width: 100%;
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+  }
+
+/*header*/
+
+
+
+header{
+    text-align: center;
+    background-color: #fff;
+   
+}
+.header-container{
+    padding: 2rem;
+    max-width: 100%;
+    text-align:center;
+
+}
+
+
+header h1{
+    font-size: 4.2rem;
+    padding-bottom: 3rem;
+    font-weight: 300;
+    color: #333;
+}
+header p{
+    font-size: 1.6rem;
+    padding: 3rem 0;
+    color: #aaa;
+}
+header a{
+    text-decoration: none;
+    color: #aaa;
+    font-size: 1.6rem;
+    transition: all .3s;
+
+     
+}
+header a:hover{
+    color: black;
+}
+
+
+header li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 1rem 1rem;
+
+}
+header ul{
+    padding: 3rem 0;
+}
+header i{
+    margin: 1rem 1.5rem;
+    font-size: 1.6rem;
+    padding: 3rem 0;
+}
+
+hr{
+    display: none;
+}
+
+/*Main*/
+
+.listitems-wrapper{
+    margin: 0 auto;
+}
+.listitem{
+    width: 100%;
+    height: 50rem;
+    display: block;
+    margin: 3rem 0;
+ 
+      
+   
+}
+.img-box1{
+    background-image: url(./img/landscape-g952362dcd_1280.jpg);
+}
+.img-box2{
+    background-image: url(./img/deer-g5b626f8a7_1280.jpg);
+}
+.img-box3{
+    background-image: url(./img/lumber-gd135cda21_1280.jpg);
+}
+.img-box4{
+    background-image: url(./img/puppy-g1c25cded7_1280.jpg);
+}
+.img-box5{
+    background-image: url(./img/sika-deer-g0cb82453d_1280.jpg);
+}
+.img-box{
+  
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+    display: block;
+    position: relative;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    opacity: 1;
+    transition: all .3s;
+}
+.img-box:hover{
+    opacity: 0.8;
+}
+.text-box{
+    width: 100%;
+    min-height: 25rem;
+    background-color: white;
+    text-align: left;
+    display: block; 
+}
+
+.text-box h2{
+    font-size: 2.4rem;
+    font-weight: 300;
+    padding: 1.5rem 1rem;
+    line-height: 2rem;
+}
+.text-box p{
+    font-size: 1.4rem;
+    padding: 2rem 1rem;
+    color: #aaa;
+    line-height: 1.5rem;
+}
+.text-box a{
+    color: #aaa;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.text-box a:hover{
+    color: #000;
+    text-decoration: underline;
+
+}
+
+.date{
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+
+@media screen and (min-width: 800px){
+    .container{
+      
+      width: 95%;
+      display: block;
+      text-align:right;
+      margin-right: 1rem;
+     
+    }
+    .header-container{
+        height: 100%;
+        width: 100%;
+        padding: 6rem 5rem;
+        text-align: left;
+    }
+    hr{
+        position: relative;
+        width: 30rem;
+        display:block;
+    }
+
+
+    header{
+        display: inline-block;
+        text-align: left;
+        width: 40rem;
+        height: 100%;
+        position: fixed;
+        background-color: #fff;
+        ;
+      
+    }
+    main{
+        display: inline-block;
+        width: 60%;
+        float: right;
+       
+  
+       
+    }
+    header li{
+        list-style-type: none;
+        display: block;
+        margin: 1rem 1rem;
+    
+    }
+
+    html{
+      font-size: 9px;
+    }
+
+    }
+    
+@media screen and (min-width: 900px){
+  
+
+    html{
+      font-size: 10px;
+    }
+}
